@@ -12,7 +12,7 @@ const Products = ({ name, imagePath }) => {
       }}
     >
       <img
-        style={{ width: "75%" }}
+        style={{ width: "75%", height: "75%" }}
         src={`http://localhost:4000${imagePath}`}
         alt={`${name} product`}
       />
